@@ -1,0 +1,46 @@
+Interpretation of the result: 
+
+Accuracy:
+Accuracy measures the overall correctness of the model's predictions.
+It is calculated as the proportion of correct predictions to the total number of instances.
+Here accuracy is 0.812, indicating that the model achieved an accuracy of 81.2%. 
+
+95% Confidence Interval (CI):
+The 95% confidence interval is (0.7293, 0.8782) means that we can be 95% confident that the true accuracy lies within this interval.
+
+No Information Rate (NIR):
+The no information rate represents the accuracy achieved by a naive model that always predicts the most prevalent class.
+In this case, the no information rate is 0.6667, indicating that if we always predicted class 0 (the most prevalent class),
+we would achieve an accuracy of 66.7%.
+
+Kappa:
+Kappa is a statistic that measures the agreement between the predicted and actual classes,
+considering the agreement that could be expected by chance alone. A kappa value of 0.5769 suggests a moderate level of agreement beyond chance.
+
+Sensitivity, Specificity, Positive Predictive Value, Negative Predictive Value:
+These measure the model's performance in terms of correctly identifying positive and negative instances.
+
+Sensitivity represents the proportion of actual positive instances correctly predicted as positive (0.8590).
+Specificity is the proportion of actual negative instances correctly predicted as negative (0.7179).
+Positive Predictive Value (PPV) is the proportion of predicted positive instances that are actually positive (0.8590),
+and Negative Predictive Value (NPV) is the proportion of predicted negative instances that are actually negative (0.7179).
+
+Prevalence, Detection Rate, Detection Prevalence:
+Prevalence refers to the proportion of instances belonging to the positive class (0.6667).
+Detection Rate is the proportion of actual positive instances correctly identified as positive (0.5726),
+and Detection Prevalence is the proportion of instances predicted as positive (0.6667).
+
+Balanced Accuracy:
+Balanced Accuracy is the average of sensitivity and specificity and provides an overall measure of classification performance.
+Here the balanced accuracy is 0.7885.
+
+'Positive' Class:
+The label 'Positive' refers to class 0 in this context.
+
+Overall, the results indicate that the model achieved relatively good accuracy,
+with better sensitivity (ability to detect positive instances) than specificity (ability to detect negative instances).
+However, further analysis and consideration of the specific context and requirements are needed to fully interpret the performance and determine the suitability of the model.
+
+
+
+
