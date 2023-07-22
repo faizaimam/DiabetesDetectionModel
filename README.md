@@ -48,7 +48,6 @@ predictions <- predict(model, newdata = test_data)
 
 ```
 #### 3.3 Confusion Matrix
-confusionMatrix(predictions, test_data$Outcome)
 ```{r comment ="" }
 confusionMatrix(predictions, test_data$Outcome)
 ```
